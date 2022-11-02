@@ -304,3 +304,4 @@ breaking change and would be subject to the announcement policy stated above.
 The `protoc-gen-go/generator` package exposes a plugin interface,
 which is used by the gRPC code generation. This interface is not
 supported and is subject to incompatible changes without notice.
+
