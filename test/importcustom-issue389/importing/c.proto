@@ -1,7 +1,7 @@
 syntax = "proto3";
 package importing;
 
-import "github.com/gogo/protobuf/gogoproto/gogo.proto";
+import "github.com/DharitriME/protobuf/gogoproto/gogo.proto";
 import "github.com/gogo/protobuf/test/importcustom-issue389/imported/a.proto";
 
 option (gogoproto.sizer_all) = true;

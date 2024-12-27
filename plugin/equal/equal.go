@@ -50,21 +50,21 @@ The equal plugin also generates a test given it is enabled using one of the foll
 
 Let us look at:
 
-  github.com/gogo/protobuf/test/example/example.proto
+	github.com/gogo/protobuf/test/example/example.proto
 
 Btw all the output can be seen at:
 
-  github.com/gogo/protobuf/test/example/*
+	github.com/gogo/protobuf/test/example/*
 
 The following message:
 
-  option (gogoproto.equal_all) = true;
-  option (gogoproto.verbose_equal_all) = true;
+	  option (gogoproto.equal_all) = true;
+	  option (gogoproto.verbose_equal_all) = true;
 
-  message B {
-	optional A A = 1 [(gogoproto.nullable) = false, (gogoproto.embed) = true];
-	repeated bytes G = 2 [(gogoproto.customtype) = "github.com/gogo/protobuf/test/custom.Uint128", (gogoproto.nullable) = false];
-  }
+	  message B {
+		optional A A = 1 [(gogoproto.nullable) = false, (gogoproto.embed) = true];
+		repeated bytes G = 2 [(gogoproto.customtype) = "github.com/gogo/protobuf/test/custom.Uint128", (gogoproto.nullable) = false];
+	  }
 
 given to the equal plugin, will generate the following code:
 
@@ -152,15 +152,14 @@ and the following test code:
 		if err := p.VerboseEqual(msg); err != nil {
 			t.Fatalf("%#v !VerboseEqual %#v, since %v", msg, p, err)
 	}
-
 */
 package equal
 
 import (
-	"github.com/gogo/protobuf/gogoproto"
+	"github.com/DharitriME/protobuf/gogoproto"
+	"github.com/DharitriME/protobuf/protoc-gen-gogo/generator"
 	"github.com/gogo/protobuf/proto"
 	descriptor "github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
-	"github.com/gogo/protobuf/protoc-gen-gogo/generator"
 	"github.com/gogo/protobuf/vanity"
 )
 

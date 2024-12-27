@@ -6,7 +6,7 @@ package indeximport
 import (
 	bytes "bytes"
 	fmt "fmt"
-	_ "github.com/gogo/protobuf/gogoproto"
+	_ "github.com/DharitriME/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	index "github.com/gogo/protobuf/test/indeximport-issue72/index"
 	io "io"

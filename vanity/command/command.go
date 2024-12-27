@@ -35,6 +35,7 @@ import (
 	"os"
 	"strings"
 
+	"github.com/DharitriME/protobuf/protoc-gen-gogo/generator"
 	_ "github.com/gogo/protobuf/plugin/compare"
 	_ "github.com/gogo/protobuf/plugin/defaultcheck"
 	_ "github.com/gogo/protobuf/plugin/description"
@@ -52,7 +53,6 @@ import (
 	_ "github.com/gogo/protobuf/plugin/union"
 	_ "github.com/gogo/protobuf/plugin/unmarshal"
 	"github.com/gogo/protobuf/proto"
-	"github.com/gogo/protobuf/protoc-gen-gogo/generator"
 	_ "github.com/gogo/protobuf/protoc-gen-gogo/grpc"
 	plugin "github.com/gogo/protobuf/protoc-gen-gogo/plugin"
 )

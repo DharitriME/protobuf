@@ -130,7 +130,7 @@ Installing any of these binaries is easy.  Simply run:
 
     go get github.com/gogo/protobuf/proto
     go get github.com/gogo/protobuf/{binary}
-    go get github.com/gogo/protobuf/gogoproto
+    go get github.com/DharitriME/protobuf/gogoproto
 
 These binaries allow you to use gogoprotobuf [extensions](https://github.com/gogo/protobuf/blob/master/extensions.md). You can also use your own binary.
 
@@ -162,7 +162,7 @@ Install protoc-gen-gogo:
     go get github.com/gogo/protobuf/proto
     go get github.com/gogo/protobuf/jsonpb
     go get github.com/gogo/protobuf/protoc-gen-gogo
-    go get github.com/gogo/protobuf/gogoproto
+    go get github.com/DharitriME/protobuf/gogoproto
 
 ## GRPC
 

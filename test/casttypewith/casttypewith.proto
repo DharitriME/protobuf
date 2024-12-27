@@ -30,7 +30,7 @@ syntax = "proto2";
 
 package casttypewith;
 
-import "github.com/gogo/protobuf/gogoproto/gogo.proto";
+import "github.com/DharitriME/protobuf/gogoproto/gogo.proto";
 
 option (gogoproto.goproto_getters_all) = true;
 
@@ -46,8 +46,8 @@ option (gogoproto.sizer_all) = true;
 
 
 message Castaway {
-	optional bytes MyCastedWith = 1          [(gogoproto.casttypewith) = "github.com/gogo/protobuf/test/casttypewith/types.Castee;github.com/gogo/protobuf/test/casttypewith/types.Caster"];
-	optional bytes MyBigInt     = 2          [(gogoproto.casttypewith) = "math/big.Int;github.com/gogo/protobuf/test/casttypewith/types.BigIntCaster"];
+	optional bytes MyCastedWith = 1          [(gogoproto.casttypewith) = "github.com/DharitriME/protobuf/test/casttypewith/types.Castee;github.com/DharitriME/protobuf/test/casttypewith/types.Caster"];
+	optional bytes MyBigInt     = 2          [(gogoproto.casttypewith) = "math/big.Int;github.com/DharitriME/protobuf/test/casttypewith/types.BigIntCaster"];
 }
 
 message Wilson {

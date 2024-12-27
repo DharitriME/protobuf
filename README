@@ -55,7 +55,7 @@ See the note at the bottom of this file for details.
 There are no insertion points in the plugin.
 
 GoGoProtobuf provides extensions for protocol buffers and GoProtobuf
-see http://github.com/gogo/protobuf/gogoproto/doc.go
+see http://github.com/DharitriME/protobuf/gogoproto/doc.go
 
 ## Using protocol buffers with Go ##
 
@@ -116,7 +116,7 @@ version.
 
 If you are using any gogo.proto extensions you will need to specify the
 proto_path to include the descriptor.proto and gogo.proto.
-gogo.proto is located in github.com/gogo/protobuf/gogoproto
+gogo.proto is located in github.com/DharitriME/protobuf/gogoproto
 This should be fine, since your import is the same.
 descriptor.proto is located in either github.com/gogo/protobuf/protobuf
 or code.google.com/p/protobuf/trunk/src/

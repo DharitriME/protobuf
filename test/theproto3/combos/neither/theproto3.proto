@@ -38,7 +38,7 @@ syntax = "proto3";
 
 package theproto3;
 
-import "github.com/gogo/protobuf/gogoproto/gogo.proto";
+import "github.com/DharitriME/protobuf/gogoproto/gogo.proto";
 
 import "github.com/gogo/protobuf/test/combos/both/thetest.proto";
 

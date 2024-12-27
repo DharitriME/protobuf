@@ -30,7 +30,7 @@ syntax = "proto2";
 
 package importdedup;
 
-import "github.com/gogo/protobuf/gogoproto/gogo.proto";
+import "github.com/DharitriME/protobuf/gogoproto/gogo.proto";
 
 import "github.com/gogo/protobuf/test/importdedup/subpkg/subproto.proto";
 

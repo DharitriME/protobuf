@@ -6,9 +6,9 @@ package casttypewith
 import (
 	bytes "bytes"
 	fmt "fmt"
-	_ "github.com/gogo/protobuf/gogoproto"
+	_ "github.com/DharitriME/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	github_com_gogo_protobuf_test_casttypewith_types "github.com/gogo/protobuf/test/casttypewith/types"
+	github_com_gogo_protobuf_test_casttypewith_types "github.com/DharitriME/protobuf/test/casttypewith/types"
 	io "io"
 	math "math"
 	math_big "math/big"
@@ -27,8 +27,8 @@ var _ = math.Inf
 const _ = proto.GoGoProtoPackageIsVersion3 // please upgrade the proto package
 
 type Castaway struct {
-	MyCastedWith         *github_com_gogo_protobuf_test_casttypewith_types.Castee `protobuf:"bytes,1,opt,name=MyCastedWith,casttypewith=github.com/gogo/protobuf/test/casttypewith/types.Castee;github.com/gogo/protobuf/test/casttypewith/types.Caster" json:"MyCastedWith,omitempty"`
-	MyBigInt             *math_big.Int                                            `protobuf:"bytes,2,opt,name=MyBigInt,casttypewith=math/big.Int;github.com/gogo/protobuf/test/casttypewith/types.BigIntCaster" json:"MyBigInt,omitempty"`
+	MyCastedWith         *github_com_gogo_protobuf_test_casttypewith_types.Castee `protobuf:"bytes,1,opt,name=MyCastedWith,casttypewith=github.com/DharitriME/protobuf/test/casttypewith/types.Castee;github.com/DharitriME/protobuf/test/casttypewith/types.Caster" json:"MyCastedWith,omitempty"`
+	MyBigInt             *math_big.Int                                            `protobuf:"bytes,2,opt,name=MyBigInt,casttypewith=math/big.Int;github.com/DharitriME/protobuf/test/casttypewith/types.BigIntCaster" json:"MyBigInt,omitempty"`
 	XXX_NoUnkeyedLiteral struct{}                                                 `json:"-"`
 	XXX_unrecognized     []byte                                                   `json:"-"`
 	XXX_sizecache        int32                                                    `json:"-"`

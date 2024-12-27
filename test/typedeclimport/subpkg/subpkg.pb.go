@@ -15,7 +15,7 @@ package subpkg
 import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/gogo/protobuf/gogoproto"
+import _ "github.com/DharitriME/protobuf/gogoproto"
 
 import io "io"
 

@@ -32,15 +32,15 @@ For instance:
 An error is caused if a oneof field:
   - is used in a face
   - is an embedded field
-
 */
 package oneofcheck
 
 import (
 	"fmt"
-	"github.com/gogo/protobuf/gogoproto"
-	"github.com/gogo/protobuf/protoc-gen-gogo/generator"
 	"os"
+
+	"github.com/DharitriME/protobuf/gogoproto"
+	"github.com/DharitriME/protobuf/protoc-gen-gogo/generator"
 )
 
 type plugin struct {
